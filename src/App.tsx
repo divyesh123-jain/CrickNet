@@ -1,14 +1,13 @@
 
 import './App.css'
+import Dashboard from './components/Dashboard/Dashboard'
 
 function App() {
 
 
   return (
     <>
-    <>
-    <p className='text-3xl font-bold'>Toh kaise hai aap log</p>
-    </>
+<Dashboard />
     </>
   )
 }
