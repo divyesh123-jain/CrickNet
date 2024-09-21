@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Fixtures from './Fixtures/Fixtures'
 import HomeCard from '../Cards/HomeCard'
 
