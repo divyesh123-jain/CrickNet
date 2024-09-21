@@ -41,17 +41,7 @@ export default function Dashboard() {
           <button className="bg-green-500 text-white px-4 py-2 rounded">Add Tips</button>
         </div>
 
-        <div className="bg-green-100 p-6 rounded-lg flex items-center mb-4">
-          <img
-            src="https://via.placeholder.com/300"
-            alt="Player"
-            className="h-32 w-32 rounded-full"
-          />
-          <div className="ml-6">
-            <h2 className="text-xl font-bold">West Ham United vs Bayer Leverkusen</h2>
-            <p className="text-gray-600">WHU 46% vs LEV 32% Draw 22%</p>
-          </div>
-        </div>
+   
         <HomeCard />
 
         <Fixtures/>
