@@ -1,4 +1,5 @@
 import React from 'react'
+import Fixtures from './Fixtures/Fixtures'
 
 export default function Dashboard() {
   return (
@@ -51,20 +52,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        <section>
-          <h3 className="text-lg font-semibold mb-2">Football Games</h3>
-        
-          <ul className="space-y-2">
-            <li className="flex justify-between items-center bg-gray-100 p-2 rounded">
-              <span>Atletico Madrid vs Eibar</span>
-              <span>2:3</span>
-            </li>
-            <li className="flex justify-between items-center bg-gray-100 p-2 rounded">
-              <span>Real Valladolid vs Mallorca</span>
-              <span>2:1</span>
-            </li>
-          </ul>
-        </section>
+        <Fixtures/>
       </main>
 
 
