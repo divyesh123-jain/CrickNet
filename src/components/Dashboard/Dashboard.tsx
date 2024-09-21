@@ -1,5 +1,6 @@
 import React from 'react'
 import Fixtures from './Fixtures/Fixtures'
+import HomeCard from '../Cards/HomeCard'
 
 export default function Dashboard() {
   return (
@@ -51,6 +52,7 @@ export default function Dashboard() {
             <p className="text-gray-600">WHU 46% vs LEV 32% Draw 22%</p>
           </div>
         </div>
+        <HomeCard />
 
         <Fixtures/>
       </main>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import MatchComp from './MatchComp'
 
 const SingleFixtureList = () => {

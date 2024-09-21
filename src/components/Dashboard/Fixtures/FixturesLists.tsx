@@ -1,4 +1,4 @@
-import React from 'react'
+
 import SingleFixtureList from './SingleFixtureList'
 
 const FixturesLists = () => {
