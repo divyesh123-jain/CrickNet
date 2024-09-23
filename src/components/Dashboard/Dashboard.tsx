@@ -4,14 +4,14 @@ import { Link, Outlet } from 'react-router-dom'
 export default function Dashboard() {
   return (
     <div>
-         <div className='flex flex-col md:flex-row md:h-[100vh] h-auto w-full bg-black'>
+         <div className='flex flex-col md:flex-row md:h-auto h-auto w-auto bg-black'>
                
                <div className='flex-1  px-4 pb-4 md:p-4'>
                
-                   <div className='bg-white/95 rounded-xl flex flex-col gap-2 w-full p-4 h-full md:rounded-[40px]'>
+                   <div className='bg-white/95 rounded-xl flex flex-col gap-2 w-auto p-4 min-h-screen md:rounded-[40px]'>
                    <div className="grid grid-cols-12 h-screen">
    
-      <aside className="col-span-2 bg-gray-100 p-4 h-fit">
+      <aside className="col-span-2 p-4 ">
         
         <div className="mb-8 bg-white flex justify-center items-center flex-col p-4 rounded-lg shadow-md">
           <img src="https://via.placeholder.com/150" alt="Profile" className="rounded-full" />
