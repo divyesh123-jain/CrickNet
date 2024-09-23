@@ -4,12 +4,12 @@ import { Link, Outlet } from 'react-router-dom'
 export default function Dashboard() {
   return (
     <div>
-         <div className='flex flex-col md:flex-row md:h-auto h-auto w-auto bg-black'>
+         <div className='flex flex-col md:flex-row md:min-h-screen min-h-screen w-auto bg-[#5b5c64]'>
                
                <div className='flex-1  px-4 pb-4 md:p-4'>
                
-                   <div className='bg-white/95 rounded-xl flex flex-col gap-2 w-auto p-4 min-h-screen md:rounded-[40px]'>
-                   <div className="grid grid-cols-12 h-auto">
+                   <div className='bg-[#242b2c] rounded-xl flex flex-col gap-2 w-auto p-4 md:h-[8405x] md:rounded-[40px]'>
+                   <div className="grid grid-cols-12 md:">
    
       <aside className="col-span-2 p-4 ">
         
@@ -18,7 +18,7 @@ export default function Dashboard() {
           <h2 className="mt-4 text-lg font-bold">Max Kembli</h2>
           <p className="text-sm">Professional - 3 level</p>
         </div>
-        <nav className='flex flex-col gap-2 bg-white py-4 rounded-lg shadow-md'>
+        <nav className='flex flex-col gap-2 bg-[#cabeb5] py-4 rounded-lg shadow-md'>
           <ul className="  justify-center flex flex-col divide-y-2">
             <Link to={"/"} className=" hover:shadow-md text-black flex justify-start  items-center font-semibold py-2 px-4 hover:bg-green-200 mx-2 rounded-md duration-300">Dashboard</Link>
             <Link to={"/"} className=" hover:shadow-md text-black flex justify-start  items-center font-semibold py-2 px-4 hover:bg-green-200 mx-2 rounded-md duration-300">My Feed</Link>
@@ -31,13 +31,13 @@ export default function Dashboard() {
       </aside>
 
     
-      <main className="col-span-7 bg-white p-4 shadow-md rounded-lg">  
+      <main className="col-span-7 bg-[#242b2c] p-4 shadow-md rounded-lg">  
         <Outlet/>
       </main>
       
 
 
-      <aside className="col-span-3 bg-gray-50 p-4">
+      <aside className="col-span-3  p-4">
         <h3 className="font-bold text-lg mb-4">Your Balance</h3>
         <p className="text-2xl font-semibold mb-4">489,87</p>
         <h4 className="text-lg font-bold mb-4">Top Following</h4>

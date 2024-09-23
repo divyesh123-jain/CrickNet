@@ -8,13 +8,14 @@ const DashHome = () => {
   return (
     <>
     <div className="flex items-center justify-between mb-4">
-        
+        <div className='brutalist-container'>
           <input
             type="text"
             placeholder="Search Games..."
-            className="border border-gray-300 p-2 rounded w-1/3"
+             className="brutalist-input smooth-type"
           />
-          <button className="bg-green-500 text-white px-4 py-2 rounded">Add Tips</button>
+          </div>
+          <button className="bg-[#1536c6] text-white px-4 py-2 rounded">Add Tips</button>
         </div>
 
    

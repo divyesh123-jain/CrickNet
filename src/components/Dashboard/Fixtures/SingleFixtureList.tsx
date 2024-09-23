@@ -4,7 +4,7 @@ import MatchComp from './MatchComp'
 const SingleFixtureList = ({isLiveGames,isFinishedGames,isScheduledGames,isCancelledGames,isAllGames}:{isLiveGames:boolean,isFinishedGames:boolean,isScheduledGames:boolean,isCancelledGames:boolean,isAllGames:boolean}) => {
   return (
     <div className='relative'>
-        <div className={`flex flex-row justify-between items-center bg-white shadow-lg p-3 px-4 rounded-lg border-gray-200 border-solid border-[1px] before:content-[''] before:absolute before:w-2 before:h-full before:rounded-l-full before:left-0 before:top-0  ${isLiveGames ? "before:bg-red-600 " : ""} ${isFinishedGames ? "before:bg-green-600 " : ""} ${isScheduledGames ? "before:bg-blue-600 " : ""} ${isCancelledGames ? "before:bg-gray-600 " : ""} ${isAllGames ? "before:bg-gray-600 " : ""}`}> 
+        <div className={`flex flex-row justify-between items-center bg-white shadow-lg p-3 px-4 rounded-lg border-[#cabeb5] border-solid border-[1px] before:content-[''] before:absolute before:w-2 before:h-full before:rounded-l-full before:left-0 before:top-0  ${isLiveGames ? "before:bg-red-600 " : ""} ${isFinishedGames ? "before:bg-green-600 " : ""} ${isScheduledGames ? "before:bg-blue-600 " : ""} ${isCancelledGames ? "before:bg-gray-600 " : ""} ${isAllGames ? "before:bg-gray-600 " : ""}`}> 
             <div className='flex items-center gap-3 w-[20%]'>
                 <div>
                     <h5 className='font-semibold'>4:30</h5>

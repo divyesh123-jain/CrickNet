@@ -11,8 +11,8 @@ const [fixtureType,setFixtureType] = useState({
 })
 
   return (
-    <section className="bg-white rounded-md shadow-lg p-4 mt-6 border-[1px] border-gray-200">
-        <h3 className="text-xl font-semibold mb-2">International Cricket Matches</h3>
+    <section className="bg-[#242b2c] rounded-md shadow-lg p-4 mt-5  ">
+        <h3 className="text-xl text-[#738dbf] font-semibold mb-2">International Cricket Matches</h3>
         <div className=" px-4 py-2 relative">
           <div className="flex justify-between items-center relative">
             <button onClick={() => setFixtureType({

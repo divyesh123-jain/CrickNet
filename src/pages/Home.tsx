@@ -1,8 +1,9 @@
+import MultiStageForm from "../components/Forms/MultiStageForm"
 
 
 const Home = () => {
   return (
-    <div>Home</div>
+   <MultiStageForm />
   )
 }
 
