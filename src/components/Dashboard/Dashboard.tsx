@@ -9,7 +9,7 @@ export default function Dashboard() {
                <div className='flex-1  px-4 pb-4 md:p-4'>
                
                    <div className='bg-white/95 rounded-xl flex flex-col gap-2 w-auto p-4 min-h-screen md:rounded-[40px]'>
-                   <div className="grid grid-cols-12 h-screen">
+                   <div className="grid grid-cols-12 h-auto">
    
       <aside className="col-span-2 p-4 ">
         
