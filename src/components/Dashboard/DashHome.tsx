@@ -2,9 +2,9 @@
 import HomeCard from '../Cards/HomeCard'
 import Fixtures from './Fixtures/Fixtures'
 
-type Props = {}
 
-const DashHome = (props: Props) => {
+
+const DashHome = () => {
   return (
     <>
     <div className="flex items-center justify-between mb-4">

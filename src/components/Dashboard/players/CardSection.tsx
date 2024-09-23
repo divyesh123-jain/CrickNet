@@ -1,5 +1,4 @@
 
-// import "../App.css"
 import { FaShoppingCart } from "react-icons/fa";
 const CardsSection = () => {
   return (
@@ -8,7 +7,7 @@ const CardsSection = () => {
             <h2 className="text-2xl font-bold">All Players</h2>
         <div className='grid md:grid-cols-2 grid-cols-1 my-8 gap-y-5 px-8 w-full gap-x-5 relative'>
             {[1,1,1,1,11,1].map(() => (
-                <div style={{'--isPopular':"true"}} className=' card'>
+                <div className='card' data-is-popular="true">
                     <div className='author'>
                         <img src="" alt="" />
                         <div>name</div>

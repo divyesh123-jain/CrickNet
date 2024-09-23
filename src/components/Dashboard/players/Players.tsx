@@ -1,9 +1,7 @@
 import CardsSection from "./CardSection"
 
 
-type Props = {}
-
-const Players = (props: Props) => {
+const Players = () => {
   return (
     <div>
         <CardsSection/>
