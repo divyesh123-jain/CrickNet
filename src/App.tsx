@@ -3,8 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import DashboardPage from './pages/DashboardPage'
-import Players from './components/Dashboard/players/players'
-import Dashboard from './components/Dashboard/Dashboard'
+import Players from './components/Dashboard/players/Players'
 import DashHome from './components/Dashboard/DashHome'
 
 function App() {

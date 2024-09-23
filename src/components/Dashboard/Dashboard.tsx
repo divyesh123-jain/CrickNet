@@ -1,6 +1,4 @@
 
-import Fixtures from './Fixtures/Fixtures'
-import HomeCard from '../Cards/HomeCard'
 import { Link, Outlet } from 'react-router-dom'
 
 export default function Dashboard() {
