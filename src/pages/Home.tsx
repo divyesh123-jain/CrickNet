@@ -1,10 +1,12 @@
+import MultiStepForm from "../components/Forms/MultiStepForm"
 
 
 
 const Home = () => {
   return (
    <>
-   Home
+   <>
+   <MultiStepForm /></>
    </>
   )
 }
