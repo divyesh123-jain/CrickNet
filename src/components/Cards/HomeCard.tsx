@@ -3,7 +3,7 @@ export default function HomeCard() {
     return (
         <>
         
-        <div className="relative bg-green-500 rounded-lg shadow-lg p-6 w-full max-w-4xl mx-auto ">
+        <div className="relative bg-green-500 rounded-lg  p-6 w-full max-w-4xl mx-auto shadow-[4px_4px_#1536c6] cursor-pointer my-[20px]   border-2 border-solid active:shadow-none active:translate-x-[3px] active:translate-y-[3px] ">
 
   <div className="relative z-10 flex justify-between items-center text-white mb-4">
     <div className="flex items-center space-x-2">

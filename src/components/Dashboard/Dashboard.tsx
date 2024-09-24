@@ -1,6 +1,6 @@
 
 import { Link, Outlet } from 'react-router-dom'
-
+import Notification from '../Notifications/Notification'
 export default function Dashboard() {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function Dashboard() {
       <aside className="col-span-2 p-4 ">
         
         <div className="mb-8 bg-white flex justify-center items-center flex-col p-4 rounded-lg shadow-md">
-          <img src="https://via.placeholder.com/150" alt="Profile" className="rounded-full" />
+         
           <h2 className="mt-4 text-lg font-bold">Max Kembli</h2>
           <p className="text-sm">Professional - 3 level</p>
         </div>
@@ -48,15 +48,8 @@ export default function Dashboard() {
           <img src="https://via.placeholder.com/50" alt="User 3" className="rounded-full" />
         </div>
 
-        <h4 className="text-lg font-bold mb-4">Notification</h4>
-        <ul className="space-y-4">
-          <li className="bg-white p-2 rounded shadow">
-            Dolly Krista earned 1546 profit on football.
-          </li>
-          <li className="bg-white p-2 rounded shadow">
-            Richa Pinto earned 1234 profit on horse racing.
-          </li>
-        </ul>
+        <h4 className="text-[1.3rem] font-bold  shadow-[4px_4px_#1536c6] cursor-pointer mx-0 my-[20px] p-[15px] rounded-[10px] border-2 border-solid active:shadow-none active:translate-x-[3px] active:translate-y-[3px]  text-white mb-4">ICC Cricket Rankings - Men's Batting</h4>
+        <Notification />
       </aside>
     </div>
                    </div>
