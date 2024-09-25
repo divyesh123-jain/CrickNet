@@ -11,14 +11,14 @@ const players = [
 export default function Notification() {
     return (
         <>
-        <div className="w-auto">
+        <div className=" w-full sm:w-auto">
         <table className="w-full border-collapse">
         <thead>
-          <tr>
-            <th className="border-b-2 border-neutral-50 text-left p-3 text-neutral-50 text-2xl">Position</th>
-            <th className="border-b-2 border-neutral-50 text-left p-3 text-neutral-50 text-2xl">Player</th>
-            <th className="border-b-2 border-neutral-50 text-left p-3 text-neutral-50 text-2xl">Country</th>
-            <th className="border-b-2 border-neutral-50 text-left p-3 text-neutral-50 text-2xl">Rating</th>
+          <tr className="bg-[#1536c6]">
+            <th className="border-b-2 border-neutral-50 text-left p-3 text-neutral-50 text-xs md:text-2xl">Position</th>
+            <th className="border-b-2 border-neutral-50 text-left p-3 text-neutral-50 text-xs md:text-2xl">Player</th>
+            <th className="border-b-2 border-neutral-50 text-left p-3 text-neutral-50 text-xs md:text-2xl">Country</th>
+            <th className="border-b-2 border-neutral-50 text-left p-3 text-neutral-50 text-xs md:text-2xl">Rating</th>
           </tr>
         </thead>
         </table>
