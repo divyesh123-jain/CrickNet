@@ -1,6 +1,6 @@
 
 // import "../App.css"
-import { FaShoppingCart } from "react-icons/fa";
+
 const CardsSection = () => {
   return (
     <div>

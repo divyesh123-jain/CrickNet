@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import DashboardPage from './pages/DashboardPage'
 import Players from './components/Dashboard/players/Players'
 import DashHome from './components/Dashboard/DashHome'
+import MultiStepForm from './components/Forms/MultiStepForm'
 
 function App() {
 
@@ -12,6 +13,11 @@ function App() {
     {
       path:"/",
       element:<Home/>
+    },
+    {
+      path:"/form",
+      element:<MultiStepForm  />
+
     },
     {
       path:"/dashboard",
@@ -25,6 +31,7 @@ function App() {
           path:"/dashboard/players",
           element:<Players/>
         },
+       
       ]
     },
   ])
