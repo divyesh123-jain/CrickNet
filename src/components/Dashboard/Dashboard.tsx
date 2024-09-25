@@ -14,10 +14,9 @@ export default function Dashboard() {
 
                 <aside className="md:col-span-2  p-4">
                   
-                  <div className="mb-8 bg-white flex justify-center items-center w-full md:w-auto flex-col p-4 rounded-lg shadow-md">
+                  <div className="mb-8 pt-8 flex justify-center items-center w-full md:w-auto flex-col p-4 rounded-lg shadow-md">
                   
-                    <h2 className="mt-4 text-lg font-bold">Max Kembli</h2>
-                    <p className="text-sm">Professional - 3 level</p>
+                    
                   </div>
                   <nav className='flex flex-col gap-2 bg-[#cabeb5] py-4 rounded-lg shadow-md'>
                     <ul className="  justify-center flex flex-col divide-y-2">
@@ -55,7 +54,7 @@ export default function Dashboard() {
                  
                   <div className="flex space-x-4 mb-8 mt-6" >
                 
-                    <img src="https://cricwallah.com/wp-content/uploads/2024/05/komon-1024x418.png" alt="User 1" className="rounded-[0.5rem] hover:scale-110 duration-300 " />
+                    <img src="https://cricwallah.com/wp-content/uploads/2024/05/komon-1024x418.png" alt="User 1" className="rounded-[0.5rem] hover:scale-110 shadow-[6px_7px_#cabeb5] duration-300 " />
                    
                   </div>
 
