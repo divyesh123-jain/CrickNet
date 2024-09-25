@@ -1,6 +1,7 @@
 
 import { Link, Outlet } from 'react-router-dom'
 import Notification from '../Notifications/Notification'
+import vk from "../../assets/vk.png"
 export default function Dashboard() {
   return (
     <div className='bg-[#5b5c64] w-full'>
@@ -28,6 +29,18 @@ export default function Dashboard() {
                       <Link to={"/"} className=" hover:shadow-md text-black flex justify-start  items-center font-semibold py-2 px-4 hover:bg-green-200 mx-2 rounded-md duration-300">Favourite League</Link>
                     </ul>
                   </nav>
+
+                  <div className="card1 flex justify-center items-center w-full md:w-auto flex-col p-4 md:h-[350px] rounded-lg shadow-md mt-6">
+  <div className="card1-info">
+
+
+    <p className="magic">
+    <img src={vk} alt="Player" className=" rounded-lg transition-all duration-300 hover:scale-110" />
+    </p>
+  </div>
+  
+</div>
+
                 </aside>
 
               
