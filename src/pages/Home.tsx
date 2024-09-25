@@ -8,6 +8,12 @@ const Home: React.FC = () => {
     navigate('/form');
   }
 
+  const DashboardhandleButton = (e:React.FormEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    console.log("Button clicked");
+    navigate('/dashboard');
+  }
+
  
   return (
     <>
@@ -33,7 +39,7 @@ const Home: React.FC = () => {
       <hr className="mt-4 w-full lg:hidden" />
       <div className="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
        
-        <button onClick={handleButton} className=" bg-blue-700 px-5 py-3 font-medium text-white transition-all duration-200  ">Get Started</button>
+        <button onClick={handleButton} className=" bg-blue-700 px-5 py-3 font-medium text-white transition-all duration-200  ">MultiStageForm</button>
       </div>
     </nav>
   </header>
@@ -56,7 +62,7 @@ const Home: React.FC = () => {
         <p className="mx-auto mt-12 max-w-md leading-7  text-white">CrickNet is your go-to platform for exploring player stats and boosting your cricket knowledge. Stay updated with insights, records, and all things cricket!</p>
 
         <div className="group relative mt-10 inline-flex">
-          <button onClick={handleButton} className="rounded-xl bg-blue-700 px-10 py-3 font-medium text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-blue-600">Get Started</button>
+          <button onClick={DashboardhandleButton} className="rounded-xl bg-blue-700 px-10 py-3 font-medium text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-blue-600">Dashboard</button>
           <div className="-scale-x-100 absolute left-0 -bottom-10 hidden h-10 w-10 -rotate-12 text-blue-600 md:inline-flex">
             <svg viewBox="0 0 82 35" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M0 21.3963C0.189514 19.1422 0.475057 16.717 0.554355 14.2852C0.582363 13.435 0.32301 12.6326 1.24839 12.1517C1.43863 12.053 1.7169 11.8956 1.85767 11.9661C4.2446 13.1626 6.90906 13.1934 9.41312 13.8814C11.09 14.3423 12.6519 15.089 13.7134 16.5797C13.9251 16.8774 13.9105 17.3427 14 17.7305C13.6228 17.8077 13.2227 18.01 12.8727 17.9421C10.3283 17.4477 7.78825 16.9245 5.25946 16.353C4.46612 16.1737 4.32244 16.4862 4.22859 17.1961C4.0118 18.8342 3.66769 20.4541 3.43198 22.0899C3.33086 22.7891 3.36905 23.509 3.35123 24.2197C3.34977 24.2791 3.44107 24.3474 3.43052 24.3989C3.32213 24.9318 3.2712 25.8796 3.07114 25.9142C2.49387 26.0144 1.77655 25.8915 1.25603 25.5961C-0.352473 24.6832 0.143681 23.0129 0 21.3963Z" fill="currentColor" />
