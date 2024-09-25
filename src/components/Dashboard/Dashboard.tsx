@@ -52,12 +52,11 @@ export default function Dashboard() {
 
                 <aside className="md:col-span-4  p-4 w-full md:w-auto">
             
-                  <h4 className="text-lg font-bold mb-4 text-white">Top Following</h4>
-                  <div className="flex space-x-4 mb-8">
+                 
+                  <div className="flex space-x-4 mb-8 mt-6" >
                 
-                    <img src="https://via.placeholder.com/50" alt="User 1" className="rounded-[0.5rem] hover:scale-110 duration-300 " />
-                    <img src="https://via.placeholder.com/50" alt="User 2" className="rounded-[0.5rem] hover:scale-110 duration-300" />
-                    <img src="https://via.placeholder.com/50" alt="User 3" className="rounded-[0.5rem] hover:scale-110 duration-300" />
+                    <img src="https://cricwallah.com/wp-content/uploads/2024/05/komon-1024x418.png" alt="User 1" className="rounded-[0.5rem] hover:scale-110 duration-300 " />
+                   
                   </div>
 
                   <h4 className="text-[1.3rem] font-bold  shadow-[4px_4px_#1536c6] cursor-pointer mx-0 my-[20px] p-[15px] rounded-[10px] border-2 border-solid active:shadow-none active:translate-x-[3px] active:translate-y-[3px]  text-white mb-4">ICC Cricket Rankings - Men's Batting</h4>
