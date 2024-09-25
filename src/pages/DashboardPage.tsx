@@ -3,7 +3,7 @@ import Dashboard from "../components/Dashboard/Dashboard"
 
 const DashboardPage = () => {
   return (
-    <div>
+    <div className="w-full">
         <Dashboard/>
     </div>
   )

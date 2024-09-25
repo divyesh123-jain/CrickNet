@@ -29,27 +29,27 @@ export default function HomeCard() {
 
 
  
-  <div className="relative z-10 flex justify-between items-center mb-8">
-    <div className="text-white text-center">
+  <div className="relative z-10 flex justify-between items-center mb-8 gap-4 md:gap-0">
+    <div className="text-white text-center shadow-md rounded-lg p-4 bg-green-600">
       <div className="text-lg font-bold">Total Matches</div>
       <div className="text-sm">West Ham United</div>
     </div>
    
-    <div className="text-white text-center">
+    <div className="text-white text-center shadow-md rounded-lg p-4 bg-green-600">
       <div className="text-lg font-bold">Total Runs</div>
       <div className="text-sm">Bayer Leverkusen</div>
     </div>
   </div>
 
-  <div className="relative z-10 flex justify-between items-center text-white">
-    <div className="text-center">
+  <div className="relative z-10 flex justify-between items-center text-white  md:gap-0 gap-4 text-sm md:text-base">
+    <div className="text-center shadow-md rounded-lg p-4 bg-green-600">
       <div>WHU 44% TIP</div>
       <div>234 TIP</div>
     </div>
-    <div className="text-center">
+    <div className="text-center mt-8 shadow-md rounded-lg p-2  bg-green-600">
     <div>Virat Kholi </div>
     </div>
-    <div className="text-center">
+    <div className="text-center shadow-md rounded-lg p-4 bg-green-600">
       <div>LEV 32% TIP</div>
       <div>131 TIP</div>
     </div>
