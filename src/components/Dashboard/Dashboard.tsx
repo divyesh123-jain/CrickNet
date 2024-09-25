@@ -30,16 +30,15 @@ export default function Dashboard() {
                   </nav>
 
                   <div className="card1 flex justify-center items-center w-full md:w-auto flex-col p-4 md:h-[350px] rounded-lg shadow-md mt-6">
-  <div className="card1-info">
+                   <div className="card1-info">
 
 
-    <p className="magic">
-    <img src={vk} alt="Player" className=" rounded-lg transition-all duration-300 hover:scale-110" />
-    </p>
-  </div>
+                        <p className="magic">
+                        <img src={vk} alt="Player" className=" rounded-lg transition-all duration-300 hover:scale-110" />
+                        </p>
+                      </div>
   
-</div>
-
+                    </div>
                 </aside>
 
               
