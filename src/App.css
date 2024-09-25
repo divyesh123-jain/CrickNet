@@ -61,12 +61,13 @@
 }
 .card .image img{
     width: 80%;
-    transform:rotate(15deg);
+    /* transform:rotate(15deg); */
+    padding: 5px 20px;
     transition: 0.5s;
 }
 
 .card .image img:hover{
-    transform: rotate(25deg) scale(1.1) translate(10px,-20px);
+    /* transform: rotate(25deg) scale(1.1) translate(10px,-20px); */
 }
 
 .card .info{
