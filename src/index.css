@@ -2,3 +2,319 @@
 @tailwind components;
 @tailwind utilities;
 
+.home {
+  margin: 0;
+  height: 100vh;
+  background: conic-gradient(
+    from 0deg,
+    rgba(0, 0, 0, 1) 0deg,
+    /* Deep Black */ rgba(30, 30, 30, 1) 60deg,
+    /* Very Dark Gray */ rgb(48, 47, 47) 120deg,
+    /* Dark Gray */ rgb(32, 32, 32) 180deg,
+    /* Silver */ rgba(120, 120, 120, 0.5) 240deg,
+    /* Semi-transparent Silver */ rgba(0, 0, 0, 0) 300deg,
+    /* Transparent */ rgba(0, 0, 0, 1) 360deg /* Back to Deep Black */
+  );
+  animation: spin 10s infinite linear;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    .logo {
+      font-size: 5rem; /* Adjust the size as needed */
+      font-weight: bold;
+      text-align: center;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1),
+        /* Black */ rgba(50, 50, 50, 1),
+        /* Dark Gray */ rgba(100, 100, 100, 1),
+        /* Medium Gray */ rgb(37, 35, 35),
+        /* Silver */ rgba(46, 43, 43, 0.5),
+        /* Semi-transparent Silver */ rgba(255, 255, 255, 0) /* Transparent */
+      );
+      -webkit-background-clip: text;
+      color: transparent; /* Makes text transparent to show the gradient */
+      background-clip: text;
+      animation: textGradientMove 5s infinite; /* Optional for gradient movement */
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin-right: 20px;
+      }
+    }
+
+    .nav-actions {
+      .signup-btn,
+      .demo-btn {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        background: linear-gradient(
+          45deg,
+          rgba(0, 0, 0, 1) 0%,
+          /* Deep Black */ rgba(50, 50, 50, 1) 25%,
+          /* Dark Gray */ rgba(100, 100, 100, 1) 50%,
+          /* Medium Gray */ rgba(192, 192, 192, 1) 75%,
+          /* Silver */ rgba(192, 192, 192, 0.5) 100%
+            /* Semi-transparent Silver */
+        );
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+      }
+
+      button:hover {
+        background: linear-gradient(
+          45deg,
+          rgba(50, 50, 50, 1) 0%,
+          /* Dark Gray */ rgba(100, 100, 100, 1) 25%,
+          /* Medium Gray */ rgba(192, 192, 192, 1) 50%,
+          /* Silver */ rgba(255, 255, 255, 1) 75%,
+          /* Light Silver */ rgba(192, 192, 192, 1) 100% /* Silver */
+        );
+        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+        transform: scale(1.05); /* Slightly enlarges button */
+      }
+    }
+  }
+
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    .content {
+      max-width: 600px;
+
+      .badge {
+        background-color: #007bff;
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 8px;
+      }
+
+      h1 {
+        font-family: "Arial", sans-serif; /* Change to your preferred font */
+        font-size: 48px; /* Adjust font size as needed */
+        color: #333; /* Base color for the text */
+        background: linear-gradient(
+          90deg,
+          #333,
+          #aaa
+        ); /* Blackish and silver texture */
+        -webkit-background-clip: text; /* For WebKit-based browsers */
+        -webkit-text-fill-color: transparent; /* Make the text transparent for the gradient */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+        padding: 10px; /* Optional padding */
+      }
+
+      .description {
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+
+      .cta-buttons {
+        .start-btn,
+        .talk-btn {
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: white;
+          padding: 15px 30px;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          background: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 1) 0%,
+            /* Deep Black */ rgba(50, 50, 50, 1) 25%,
+            /* Dark Gray */ rgba(100, 100, 100, 1) 50%,
+            /* Medium Gray */ rgba(192, 192, 192, 1) 75%,
+            /* Silver */ rgba(192, 192, 192, 0.5) 100%
+              /* Semi-transparent Silver */
+          );
+          transition: all 0.3s ease; /* Smooth transition for hover effect */
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        }
+
+        button:hover {
+          background: linear-gradient(
+            45deg,
+            rgba(50, 50, 50, 1) 0%,
+            /* Dark Gray */ rgba(100, 100, 100, 1) 25%,
+            /* Medium Gray */ rgba(192, 192, 192, 1) 50%,
+            /* Silver */ rgba(255, 255, 255, 1) 75%,
+            /* Light Silver */ rgba(192, 192, 192, 1) 100% /* Silver */
+          );
+          box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+          transform: scale(1.05); /* Slightly enlarges button */
+        }
+      }
+
+      .trusted {
+        margin-top: 20px;
+        font-size: 14px;
+
+        a {
+          color: #007bff;
+          text-decoration: none;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .card {
+      background-color: #262626;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 400px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px); /* Lift card up */
+        box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+      }
+
+      h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .card-details {
+        .price {
+          font-size: 22px;
+          margin-bottom: 10px;
+        }
+
+        .group {
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+
+        .tags {
+          .tag {
+            background-color: #007bff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            margin-right: 5px;
+          }
+        }
+
+        .opportunities {
+          margin-top: 20px;
+
+          .status {
+            background-color: #ffc107;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 12px;
+          }
+
+          .activity-btn {
+            background-color: #007bff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+
+            &:hover {
+              background-color: #0056b3;
+              transform: translateY(-3px);
+            }
+
+            &:active {
+              transform: translateY(0);
+            }
+          }
+
+          .due-date {
+            font-size: 12px;
+            color: #999;
+          }
+        }
+      }
+
+      /* / Hover effect for Qualified container */
+      .qualified-container {
+        background-color: #333;
+        padding: 15px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          background-color: #444;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Depth on hover */
+          transform: translateY(-3px); /* Slight lift on hover */
+        }
+
+        .qualified-header {
+          font-size: 20px;
+          font-weight: bold;
+          color: white;
+          margin-bottom: 10px;
+        }
+
+        .qualified-details {
+          font-size: 16px;
+          color: #ccc;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .content {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .card {
+        max-width: 100%;
+      }
+    }
+
+    .navbar .nav-links {
+      display: none;
+    }
+
+    .navbar .nav-actions .signup-btn,
+    .navbar .nav-actions .demo-btn {
+      padding: 8px 16px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .navbar .nav-actions .signup-btn,
+    .navbar .nav-actions .demo-btn {
+      padding: 5px 10px;
+    }
+
+    .cta-buttons .start-btn,
+    .cta-buttons .talk-btn {
+      padding: 10px 20px;
+    }
+  }
+}
